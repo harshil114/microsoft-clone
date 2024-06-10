@@ -7,24 +7,6 @@ import rightArrow from "../assets/right-arrow.png";
 
 export default function ListContainer() {
   return (
-    // <div className="container w-full flex justify-center">
-    //   <div className="bg-red-600 h-full container-main absolute top-[50rem] md:left-1 flex flex-col md:flex-row md:justify-center md:gap-10">
-    //     <div className="content-container ">
-    //       <div className="content">
-    //         <div><img src="" alt="" /></div>
-    //         <div>Surface Laptop, Copilot+ PC</div>
-    //         <div>Unlock next-gen AI experiences like Recall—so you can search your PC’s past to find the content you need.</div>
-    //         <div className="button"><button>Learn more</button></div>
-
-    //     </div>
-
-    //       <div className="content">Maximise the everyday with Microsoft 365</div>
-    //       <div className="content">Xbox Game Pass Ultimate</div>
-    //       <div className="content">Xbox Series X</div>
-    //     </div>
-    //   </div>
-    // </div>
-
     <div className="relative">
       <div className=" absolute top-[33.25rem] md:top-36 mx-auto">
         <div className="content grid grid-cols-1 md:grid-cols-4 w-screen space-y-10">
