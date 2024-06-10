@@ -3,6 +3,7 @@ import surfaceLaptop from "../assets/surface-laptop.avif";
 import ms365LifeStyle from "../assets/microsoft-365-lifestyle.avif";
 import gamePass from "../assets/game-pass.avif";
 import xBoxSeries from "../assets/xbox-series-X.webp";
+import rightArrow from "../assets/right-arrow.png";
 
 export default function ListContainer() {
   return (
@@ -55,6 +56,10 @@ export default function ListContainer() {
               </div>
               <div className="my-6">
                 <button className="btn-primary">For one person</button>
+                <span className="ml-10 text-[#0067b8] cursor-pointer relative">For up to six people
+                  <img src={rightArrow} alt="dfd" className="absolute top-[0.4rem] left-[9.3rem]" />
+                </span>
+                
               </div>
             </div>
           </div>
