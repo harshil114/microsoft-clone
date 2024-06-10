@@ -32,6 +32,7 @@ export default function ListContainer() {
               <img src={surfaceLaptop} className="w-screen mx-auto" alt="" />
             </div>
             <div className="px-5 pt-12">
+                <div className="bg-[#ffb900] w-fit font-medium px-3 py-1">New</div>
               <div className="text-2xl font-medium mb-2">Surface Laptop, Copilot+ PC</div>
               <div>
               Unlock next-gen AI experiences like Recall—so you can search your PC’s past to find the content you need.
@@ -53,7 +54,7 @@ export default function ListContainer() {
                 designed to fit your needs – all in one plan.
               </div>
               <div className="my-6">
-                <button className="btn-primary">Learn more</button>
+                <button className="btn-primary">For one person</button>
               </div>
             </div>
           </div>
@@ -69,7 +70,7 @@ export default function ListContainer() {
                 games with friends on console and PC.
               </div>
               <div className="my-6">
-                <button className="btn-primary">Learn more</button>
+                <button className="btn-primary">Join now</button>
               </div>
             </div>
           </div>
@@ -84,7 +85,7 @@ export default function ListContainer() {
                 The fastest, most powerful Xbox ever.
               </div>
               <div className="my-6">
-                <button className="btn-primary">Learn more</button>
+                <button className="btn-primary">Shop Xbox </button>
               </div>
             </div>
           </div>
