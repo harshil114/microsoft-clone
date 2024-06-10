@@ -9,3 +9,5 @@ This project aims to replicate the Microsoft website using React for building th
 - Responsive design
 - Modular components
 - Modern CSS with Tailwind
+
+Visit here for [Live App](https://microsoft-clone.netlify.app/)
