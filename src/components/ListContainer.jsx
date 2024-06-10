@@ -26,8 +26,8 @@ export default function ListContainer() {
     // </div>
 
     <div className="relative">
-      <div className=" absolute top-[33.25rem] mx-auto">
-        <div className="content grid grid-cols-1 w-screen space-y-10">
+      <div className=" absolute top-[33.25rem] md:top-36 mx-auto">
+        <div className="content grid grid-cols-1 md:grid-cols-4 w-screen space-y-10">
           <div className="item mx-2 shadow-xl">
             <div>
               <img src={surfaceLaptop} className="w-screen mx-auto" alt="" />
@@ -56,7 +56,8 @@ export default function ListContainer() {
               </div>
               <div className="my-6">
                 <button className="btn-primary">For one person</button>
-                <span className="ml-10 text-[#0067b8] cursor-pointer relative">For up to six people
+                <span className="ml-10 text-[#0067b8] cursor-pointer relative md:flex md:flex-col md:ml-0 md:mt-2 font-semibold">
+                  For up to six people
                   <img src={rightArrow} alt="dfd" className="absolute top-[0.4rem] left-[9.3rem]" />
                 </span>
                 
