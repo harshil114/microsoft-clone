@@ -8,8 +8,8 @@ import rightArrow from "../assets/right-arrow.png";
 export default function ListContainer() {
   return (
     <div className="relative">
-      <div className=" absolute top-[33.25rem] md:top-36 mx-auto">
-        <div className="content grid grid-cols-1 md:grid-cols-4 w-screen space-y-10">
+      <div className=" absolute top-[33.25rem] md:top-36 mx-auto h-screen">
+        <div className="content grid grid-cols-1 md:grid-cols-4 w-screen space-y-10 md:space-y-0">
           <div className="item mx-2 shadow-xl">
             <div>
               <img src={surfaceLaptop} className="w-screen mx-auto" alt="" />
@@ -57,7 +57,7 @@ export default function ListContainer() {
                 Play new games on day one. Plus, enjoy hundreds of high-quality
                 games with friends on console and PC.
               </div>
-              <div className="my-6">
+              <div className="my-6 md:mt-[4.9rem]">
                 <button className="btn-primary">Join now</button>
               </div>
             </div>
@@ -72,7 +72,7 @@ export default function ListContainer() {
               <div>                
                 The fastest, most powerful Xbox ever.
               </div>
-              <div className="my-6">
+              <div className="my-6 md:mt-[7.8rem]">
                 <button className="btn-primary">Shop Xbox </button>
               </div>
             </div>
