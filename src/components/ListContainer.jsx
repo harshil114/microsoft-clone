@@ -9,7 +9,7 @@ export default function ListContainer() {
   return (
     <div className="relative">
       <div className=" absolute top-[33.25rem] md:top-36 mx-auto h-screen">
-        <div className="content grid grid-cols-1 md:grid-cols-4 w-screen space-y-10 md:space-y-0">
+        <div className="content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-screen space-y-10 md:space-y-0">
           <div className="item mx-2 shadow-xl">
             <div>
               <img src={surfaceLaptop} className="w-screen mx-auto" alt="" />
