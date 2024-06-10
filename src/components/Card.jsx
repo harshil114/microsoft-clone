@@ -16,7 +16,7 @@ export default function Card() {
               This laptop's unrivalled flexibility and AI features like Recall
               and Cocreator, enable you to do more than you ever imagined.
             </p>
-            <button className="bg-[#0067B8] hover:bg-blue-700 text-white font-bold p-2 md:px-4 rounded-sm focus:outline-dashed outline-blue-600 active:outline-dashed">
+            <button className="btn-primary">
               <a href="/"> Learn more</a>
             </button>
             <hr className="md:hidden my-7" />

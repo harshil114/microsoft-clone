@@ -1,3 +1,6 @@
 @tailwind base;
 @tailwind components;
+.btn-primary{
+    @apply bg-[#0067B8] hover:bg-blue-700 text-white font-bold p-2 md:px-4 rounded-sm focus:outline-dashed outline-blue-600 active:outline-dashed
+}
 @tailwind utilities;

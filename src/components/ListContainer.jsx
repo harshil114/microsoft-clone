@@ -37,7 +37,7 @@ export default function ListContainer() {
               Unlock next-gen AI experiences like Recall—so you can search your PC’s past to find the content you need.
               </div>
               <div>
-                <button>Learn more</button>
+                <button className="btn-primary">Learn more</button>
               </div>
             </div>
           </div>
@@ -53,7 +53,7 @@ export default function ListContainer() {
                 designed to fit your needs – all in one plan.
               </div>
               <div>
-                <button>Learn more</button>
+                <button className="btn-primary">Learn more</button>
               </div>
             </div>
           </div>
@@ -69,7 +69,7 @@ export default function ListContainer() {
                 games with friends on console and PC.
               </div>
               <div>
-                <button>Learn more</button>
+                <button className="btn-primary">Learn more</button>
               </div>
             </div>
           </div>
@@ -84,7 +84,7 @@ export default function ListContainer() {
                 The fastest, most powerful Xbox ever.
               </div>
               <div>
-                <button>Learn more</button>
+                <button className="btn-primary">Learn more</button>
               </div>
             </div>
           </div>
