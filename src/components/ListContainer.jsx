@@ -27,7 +27,7 @@ export default function ListContainer() {
     <div className="relative">
       <div className=" absolute top-[33.25rem] mx-auto">
         <div className="content grid grid-cols-1 w-screen space-y-10">
-          <div className="item mx-2">
+          <div className="item mx-2 shadow-xl">
             <div>
               <img src={surfaceLaptop} className="w-screen mx-auto" alt="" />
             </div>
@@ -42,7 +42,7 @@ export default function ListContainer() {
             </div>
           </div>
 
-          <div className="item mx-2">
+          <div className="item mx-2 shadow-xl">
             <div>
               <img src={ms365LifeStyle} className="w-screen mx-auto" alt="" />
             </div>
@@ -58,7 +58,7 @@ export default function ListContainer() {
             </div>
           </div>
 
-          <div className="item mx-2">
+          <div className="item mx-2 shadow-xl">
             <div>
               <img src={gamePass} className="w-screen mx-auto" alt="" />
             </div>
@@ -74,7 +74,7 @@ export default function ListContainer() {
             </div>
           </div>
 
-          <div className="item mx-2">
+          <div className="item mx-2 shadow-xl">
             <div>
               <img src={xBoxSeries} className="w-screen mx-auto" alt="" />
             </div>
