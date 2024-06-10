@@ -31,11 +31,10 @@ export default function ListContainer() {
             <div>
               <img src={surfaceLaptop} className="w-screen mx-auto" alt="" />
             </div>
-            <div className="px-3 pt-14">
-              <div>Surface Laptop, Copilot+ PC</div>
+            <div className="px-5 pt-12">
+              <div className="text-2xl font-medium mb-2">Surface Laptop, Copilot+ PC</div>
               <div>
-                This laptop's unrivalled flexibility and AI features like Recall
-                and Cocreator, enable you to do more than you ever imagined.
+              Unlock next-gen AI experiences like Recall—so you can search your PC’s past to find the content you need.
               </div>
               <div>
                 <button>Learn more</button>
@@ -47,8 +46,8 @@ export default function ListContainer() {
             <div>
               <img src={ms365LifeStyle} className="w-screen mx-auto" alt="" />
             </div>
-            <div className="px-3 pt-14">
-              <div>Surface Laptop, Copilot+ PC</div>
+            <div className="px-5 pt-12">
+              <div className="text-2xl font-medium mb-2">Maximise the everyday with Microsoft 365</div>
               <div>
                 Get online protection, secure cloud storage and innovative apps
                 designed to fit your needs – all in one plan.
@@ -63,8 +62,8 @@ export default function ListContainer() {
             <div>
               <img src={gamePass} className="w-screen mx-auto" alt="" />
             </div>
-            <div className="px-3 pt-14">
-              <div>Surface Laptop, Copilot+ PC</div>
+            <div className="px-5 pt-12">
+              <div className="text-2xl font-medium mb-2">Xbox Game Pass Ultimate</div>
               <div>
                 Play new games on day one. Plus, enjoy hundreds of high-quality
                 games with friends on console and PC.
@@ -79,11 +78,10 @@ export default function ListContainer() {
             <div>
               <img src={xBoxSeries} className="w-screen mx-auto" alt="" />
             </div>
-            <div className="px-3 pt-14">
-              <div>Surface Laptop, Copilot+ PC</div>
-              <div>
-                Play new games on day one. Plus, enjoy hundreds of high-quality
-                games with friends on console and PC.
+            <div className="px-5 pt-12">
+              <div className="text-2xl font-medium mb-2">Xbox Series X</div>
+              <div>                
+                The fastest, most powerful Xbox ever.
               </div>
               <div>
                 <button>Learn more</button>
